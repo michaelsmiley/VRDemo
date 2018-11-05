@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1231606099219840}
+  m_IsPrefabAsset: 1
+--- !u!1 &1231606099219840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4439301021575198}
+  - component: {fileID: 114008648505036706}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4439301021575198
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231606099219840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114008648505036706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231606099219840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd478e21c584c499c857506998ad80f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EnemyTakeDamage
+    clip: {fileID: 8300000, guid: be5c58e9319d24379a48499fcf89846f, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: EnemyDeath
+    clip: {fileID: 8300000, guid: 3b83ac6c90ac240ea9cd434ff3bef000, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: GunShot
+    clip: {fileID: 8300000, guid: e5528495a10844281a06b4fb23e61730, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: GunReload
+    clip: {fileID: 8300000, guid: 1138fe3c2d762479ba87ee3f43d4164d, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: EnemyChase
+    clip: {fileID: 8300000, guid: 685c1a1a24ed94fd2881b365a7a56b65, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: EnemyAttack
+    clip: {fileID: 8300000, guid: f70c6de9d8db34374aeab54c4dd2fee2, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: f70c6de9d8db34374aeab54c4dd2fee2, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: f70c6de9d8db34374aeab54c4dd2fee2, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: MoreComing
+    clip: {fileID: 8300000, guid: f70c6de9d8db34374aeab54c4dd2fee2, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: ZombieYell
+    clip: {fileID: 8300000, guid: bbbb52592101543c59236a18acadd4e3, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: SafeForAMoment
+    clip: {fileID: 8300000, guid: f70c6de9d8db34374aeab54c4dd2fee2, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: ButtonPressed
+    clip: {fileID: 8300000, guid: f70c6de9d8db34374aeab54c4dd2fee2, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: AllWavesComplete
+    clip: {fileID: 8300000, guid: f70c6de9d8db34374aeab54c4dd2fee2, type: 3}
+    volume: 1
+    source: {fileID: 0}
